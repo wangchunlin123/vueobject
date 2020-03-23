@@ -1,7 +1,7 @@
 <template>
     <div>
-        <p>账号1111：<input v-model="username" type="text"/></p>
-        <p>账号1111：<input type="password"></p>
+        <p>账号dev：<input v-model="username" type="text"/></p>
+        <p>账号dev：<input type="password"></p>
         <input @click="login" type="button" value="登录">
         <input @click="reg" type="button" value="注册">
 
